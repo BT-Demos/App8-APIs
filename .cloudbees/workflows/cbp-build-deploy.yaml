@@ -3,6 +3,8 @@ kind: workflow
 name: cbp-ci-cd-workflow
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
 jobs:
   build:
